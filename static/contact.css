@@ -89,3 +89,6 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+form{
+  padding: 30px;
+}
