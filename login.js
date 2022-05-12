@@ -58,14 +58,9 @@ app.get("/general", function(req,res){
 } )
  
 
-
-
-
-
-    
-
-
-
+app.get("/contact", function(req,res){
+    res.sendFile(__dirname + "/views/contact.html")
+} )
 
 
 

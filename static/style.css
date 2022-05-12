@@ -2,10 +2,15 @@ body{
     color: #ff8a8a;
 }
 
-
+.main-login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .login-container{
+    /* margin-left: 50%; */
     margin-top: 5%;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
 .login-form-1{
     padding: 5%;
@@ -16,8 +21,10 @@ body{
     color: #333;
 }
 .login-form-2{
-    padding: 5%;
-    background: #cb3b38;
+    /* padding: 50%; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
 }
 .login-form-2 h3{

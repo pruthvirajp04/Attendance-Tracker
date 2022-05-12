@@ -1,7 +1,7 @@
 // const http = require('http');
 
 const hostname = 'localhost';
-// const port = 3000;
+const port = 4000;
 const mysql = require ("mysql");
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -53,10 +53,13 @@ app.get("/practical", function(req,res){
 app.get("/general", function(req,res){
     res.sendFile(__dirname + "/views/general.html")
 } )
+app.get("/contact", function(req,res){
+    res.sendFile(__dirname + "/views/fac-contact.html")
+} )
 
 
 
 
 
 // app.listen(3000);
-// app.listen(port, () => console.log(`This app is listening on port http://${hostname}:${port}`));  
+app.listen(port, () => console.log(`This app is listening on port http://${hostname}:${port}`));  
