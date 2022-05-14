@@ -39,19 +39,19 @@ app.get("/", function(req,res)
 res.sendFile(__dirname + "/views/index1.html");
 });
 app.get("/welcome", function(req,res){
-    res.sendFile(__dirname + "/views/welcome.html")
+    res.sendFile(__dirname + "/views/fac-welcome.html")
 } )
 app.get("/error", function(req,res){
     res.sendFile(__dirname + "/error.html")
 } )
 app.get("/theory", function(req,res){
-    res.sendFile(__dirname + "/views/theory.html")
+    res.sendFile(__dirname + "/views/fac-theory.html")
 } )
 app.get("/practical", function(req,res){
-    res.sendFile(__dirname + "/views/practical.html")
+    res.sendFile(__dirname + "/views/fac-practical.html")
 } )
 app.get("/general", function(req,res){
-    res.sendFile(__dirname + "/views/general.html")
+    res.sendFile(__dirname + "/views/fac-general.html")
 } )
 app.get("/contact", function(req,res){
     res.sendFile(__dirname + "/views/fac-contact.html")

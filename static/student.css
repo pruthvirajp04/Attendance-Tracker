@@ -79,6 +79,7 @@ img{
 }
 
 #details{
+  align-items: center;
   /* background-color: aqua; */
   margin: 0px auto 0px;
 }
